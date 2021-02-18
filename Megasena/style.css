@@ -1,0 +1,89 @@
+body {
+font: 20px "Montserrat", sans-serif;
+/*line-height: 2.0;*/
+color: #f5f6f7;
+}
+
+p{
+  font-family:"Montserrat", "sans-serif";
+  font-size: 18px;
+  border: 2px;
+  line-height: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: justify;
+
+}
+
+h1, h2, h3{
+	font-family: "Montserrat", "sans-serif";
+	color: #009e4c;
+	padding-bottom: 20px;
+}
+
+table, th, td {
+  /*border: 1px solid black;*/
+  border-collapse: collapse;
+}
+
+th, td {
+	padding:10px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Montserrat", "sans-serif";
+}
+
+
+label{
+	font-family:"Montserrat";
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+
+table{
+	width:50%;
+}
+
+#game_table{
+	margin-left: auto;
+ 	margin-right: auto;
+	width: 60%;
+	alignment-baseline: center;
+}
+
+#footer_div{
+	padding-top: 30px;
+	padding-bottom: 30;
+}
+
+.bg-grey{
+  background-color: #474e5d;
+  color:#ffffff;
+}
+
+.text-container{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 60px
+	margin-left: 300px;
+}
+
+.container-fluid{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.jumbotron{
+    background-image: url('Imagens/logo-largo2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+}
